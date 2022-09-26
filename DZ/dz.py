@@ -30,3 +30,4 @@ def score_game(random_predict) -> int:
 
     score = int(np.mean(count_ls)) # находим среднее количество попыток
     return(score)
+print(score_game(random_predict))
